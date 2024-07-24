@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            legend
+            { color: rgb(154, 224, 245);
+            font-style: italic;
+            font-size: large;}
+            b{
+                color: white;
+            }
+            li:hover
+            {
+                color:red;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(139, 198, 235);">
+        <fieldset>
+        <h1><center><u>FORM</u></center></h1>
+        <form style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaFVN9-Rr7TS5XbE_upnb_czv3N9UVbKv6xA&usqp=CAU); background-size: cover;"><center>
+        <br><fieldset>
+                <legend>Personal Data</legend>
+           <p><b>Enter First Name:
+            <input type="text" id="fname" name="fname"/><br><br>
+            Enter last Name:
+            <input type="text" id="lname" name="lname"/><br><br>
+            Enter Reg Number:
+            <input type="number" id="number"><br><br>
+            Select Your Gender:
+            <input type="radio" id="Gender" name="Gender" value="Male"/>Male
+            <input type="radio" id="Gender" name="Gender" value="Female"/>Female<br><br>
+            Enter Address:
+            <input type="text" style="height: 50px; width: 200px;"><br><br>
+           Enter Email:
+           <input type="email" ></p>
+        </fieldset>
+           </b><br><fieldset>
+                <legend>Acadaemic Details:</legend>
+                <b>Skilled At:
+                <input type="checkbox" id="c++" name="c++" value="c++" style="border-radius: 100px;"/>c++
+                <input type="checkbox" id="Java" name="JAVA" value="JAVA"/>JAVA
+                <input type="checkbox" id="HTML" name="HTML" value="HTML"/>HTML
+                <br><br><label for="College">Choose Your College:</label>
+                <input list="Colleges" placeholder="College">
+                <datalist id="Colleges">
+                    <option value="SKCET"></option>
+                    <option value="SKCT"></option>
+                    <option value="KCT"></option>
+                    <option value="CIT"></option>
+                    <option value="PSG"></option>
+                </datalist>
+                <br>
+                <br>
+                Choose Your Current Studying Year
+                <select name="Year" id="Year">
+                    <option value="none" selected disabled>Year</option>
+                    <option value="I">I Year</option>
+                    <option value="I">II Year</option>
+                    <option value="I">III Year</option>
+                    <option value="I">IV Year</option>
+                </select></b>
+            </fieldset><br>
+            <fieldset>
+                <legend>ADD ON</legend>
+                <b>
+              Choose Your: 
+              <input type="color"/>
+              <br>
+              <br>
+              Choose week:
+              <input type="week">
+              <br>
+              <br>
+              Choose Date:
+              <input type="date">
+              <br>
+              <br>
+              Choose Range:
+              <input type="range">
+              <br>
+              <br>
+              Choose Time:
+              <input type="time">
+            </b></fieldset><br>
+            <fieldset>
+                <legend>MEDIA</legend>
+                <b>
+                    Audio : 
+                <audio controls>
+                    <source src="" type="audio/mp3">
+                    This Browser doesn't support audio of this format.
+                </audio>    
+                <br>
+                <br>
+                Video :
+                <video controls height="200px" width="500px">
+                    <source src="D:\Movies\Joe_2023.mkv" type="video/mp4">
+                    This Video doesn't supported by this browser.
+                </video>          
+            </fieldset><br>
+            <input type="reset" id="button1" value="Submit" style="background-color: aqua; border-radius: 20px;"/>
+        </b></center><br>
+    </fieldset>
+        </form>
+    </body>
+</html>

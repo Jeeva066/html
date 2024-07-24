@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container
+        {
+            display:grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+            padding: 400px;
+        }
+        .a
+        {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            background-color: bisque;
+            border: 5px solid black;
+            font-size: 50px;
+            text-align: center;
+        }
+        .b
+        {
+            grid-row-start: 2;
+            grid-row-end: 4;
+            background-color: grey;
+            border: 5px solid black;
+            font-size: 50px;
+            text-align: center;
+        }
+        .c
+        {
+            background-color: rgb(91, 172, 244);
+            border: 5px solid black;   
+            font-size: 50px;
+            text-align: center;
+        }
+        .d
+        {
+            background-color: rgb(179, 112, 90);
+            border: 5px solid black; 
+            font-size: 50px;
+            text-align: center;
+        }
+        .e
+        {
+            grid-column-start: 2;
+            grid-column-end: 4;
+            background-color:aquamarine;
+            border: 5px solid black;
+            font-size: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="a">1</div>
+        <div class="b">2</div>
+        <div class="c">3</div>
+        <div class="d">4</div>
+        <div class="e">5</div>
+    </div>
+</body>
+</html>
