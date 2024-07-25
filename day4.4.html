@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .con1
+        {
+            background-color: aqua;
+            display: grid;
+            grid-template-columns: auto;
+        }
+        .con2
+        {
+            background-color: aqua;
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        .con3
+        {
+            background-color: aqua;
+            display: flex;  
+        }
+        .a
+        {
+            background-color: red;
+            height: 3cm;
+            width: auto;
+            margin: 35px;
+        }
+        .b,.c,.d
+        {
+            background-color: blue;
+            margin: 35px;
+            height: 8cm;
+            width: auto;
+        }
+        .e
+        {
+            margin-top: 20px;
+            margin: 50px;
+            background-color: green;
+            height: 5cm;
+            width: 9cm;
+            margin-left: 35px;
+            margin-bottom: 10px;
+        }
+        .f,.g,.h
+        {
+            margin-top: 20px;
+            margin: 50px;
+            background-color: green;
+            height: 5cm;
+            width: 9cm;
+            margin-left: 35px;
+            margin-bottom: 10px;
+        }
+        @media screen and (max-width:1000px) {
+            .con1
+        {
+            background-color: aqua;
+            display: grid;
+            grid-template-columns: auto;
+        }
+        .con2
+        {
+            background-color: aqua;
+            display: grid;
+            grid-template-columns: auto;
+        }
+        .con3
+        {
+            background-color: aqua;
+            display: grid;
+            grid-template-columns: auto auto;  
+        }
+        .a
+        {
+            background-color: red;
+            height: 3cm;
+            width: auto;
+            margin: 35px;
+        }
+        .b
+        {
+            background-color: blue;
+            margin: 35px;
+            height: 3cm;
+            width: auto;
+        }
+        .c,.d
+        {
+            background-color: blue;
+            margin: 35px;
+            height: 3cm;
+            width: auto;
+        }
+        .e
+        {
+            margin-top: 20px;
+            margin: 50px;
+            background-color: green;
+            height: 5cm;
+            width: 6cm;
+            margin-left: 35px;
+            margin-bottom: 10px;
+        }
+        .f,.g,.h
+        {
+            margin-top: 20px;
+            margin: 50px;
+            background-color: green;
+            height: 5cm;
+            width: 6cm;
+            margin-left: 35px;
+            margin-bottom: 10px;
+        }
+    }
+        @media screen and (max-width:600px) {
+            .con1
+        {
+            background-color: aqua;
+            display: grid;
+            grid-template-columns: auto;
+        }
+        .con2
+        {
+            background-color: aqua;
+            display: grid;
+            grid-template-columns: auto;
+        }
+        .con3
+        {
+            background-color: aqua;
+            display: grid;
+            grid-template-columns: auto;  
+        }
+        .a
+        {
+            background-color: red;
+            height: 3cm;
+            width: auto;
+            margin: 35px;
+        }
+        .b,.c,.d
+        {
+            background-color: blue;
+            margin: 35px;
+            height: 3cm;
+            width: auto;
+        }
+        .e
+        {
+            margin-top: 20px;
+            margin: 50px;
+            background-color: green;
+            height: 5cm;
+            width: auto;
+            margin-left: 35px;
+            margin-bottom: 10px;
+        }
+        .f,.g,.h
+        {
+            margin-top: 20px;
+            margin: 50px;
+            background-color: green;
+            height: 5cm;
+            width: auto;
+            margin-left: 35px;
+            margin-bottom: 10px;
+        }           
+        }
+        </style>
+</head>
+<body>
+    <div>
+    <div class="con1">
+        <div class="a"></div>
+    </div>
+    <div class="con2">
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+    </div>
+        <div class="con3">
+        <div class="e"></div>
+        <div class="f"></div>
+        <div class="g"></div>
+        <div class="h"></div>
+    </div>
+    </div>
+</body>
+</html>

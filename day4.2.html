@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .con
+        {
+            display: flex;
+            border: 5px solid darkblue;
+            align-items: center;
+        }
+        @media screen and (max-width:800px)
+        {
+            .con
+            {
+                display: grid;
+                border: 5px solid darkblue;
+                width: 500px;
+            }
+        }
+        #img
+        {
+            
+            margin:5px;
+            padding-top: 5px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+    <div id="img">
+        <img style="height:250px;width: 250px;"; src="https://tse1.mm.bing.net/th?id=OIP.cNoH9GFxzqxSJ6QQKVzekgHaEK&pid=Api&rs=1&c=1&qlt=95&w=198&h=111">
+    </div>
+    <div id="img">
+        <label>Birds are a group of warm-blooded vertebrates constituting the class Aves, characterised by feathers, toothless beaked jaws, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a strong yet lightweight skeleton. Birds live worldwide and range in size from the 5.5 cm (2.2 in) bee hummingbird to the 2.8 m (9 ft 2 in) common ostrich.</label>
+    </div>
+</div>
+</body>
+</html>

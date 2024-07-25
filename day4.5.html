@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+
+        height:100px;
+        width:100px;
+        background-color: red;
+        animation-name: anime;
+        animation-duration: 10s;
+        /*animation-delay: 2s;*/
+        animation-iteration-count: infinite;
+        animation-fill-mode:backwards;
+        /*animation-direction: alternate-reverse;*/
+        position: relative;
+        animation-timing-function: ease-in-out;
+        top:10px;
+        left:20px;
+        /*transition-property:width;
+        transition-duration: 0.5s;*/
+        transition-property: transform;
+        transition-duration: 0.5s;
+    }
+    div:hover
+    {
+        /*width: 300px;*/
+        transform: rotate(270deg);
+    }
+    @keyframes anime{
+        5%{background-color:red;left:20px;top:10px;}
+        20%{background-color:blue;left:500px;top:10px;}
+        50%{background-color:rgb(131, 176, 41);left:500px;top:500px;}
+        70%{background-color:rgb(185, 62, 149);left:10px;top:500px;}
+        90%{background-color:yellow;left:20px;top:10px}
+    }
+</style>
+<body>
+    <div>
+
+    </div>
+    
+</body>
+</html>
